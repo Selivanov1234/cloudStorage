@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="509.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChatController">
+      <ListView fx:id="listView" layoutX="7.0" layoutY="1.0" prefHeight="442.0" prefWidth="381.0" />
+      <TextField fx:id="input" onAction="#send" layoutX="7.0" layoutY="447.0" prefHeight="35.0" prefWidth="381.0" />
+</AnchorPane>
